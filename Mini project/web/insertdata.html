@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert Student Marks</title>
+<link rel="stylesheet" href="insert.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Insert Student Marks</h1>
+    <form id="marksForm">
+      <div class="subject-group">
+        <label for="hindi">Hindi</label>
+        <input type="text" id="hindi" name="hindi" placeholder="Enter marks">
+      </div>
+      <div class="subject-group">
+        <label for="english">English</label>
+        <input type="text" id="english" name="english" placeholder="Enter marks">
+      </div>
+      <div class="subject-group">
+        <label for="math">Math</label>
+        <input type="text" id="math" name="math" placeholder="Enter marks">
+      </div>
+      <div class="subject-group">
+        <label for="chemistry">Chemistry</label>
+        <input type="text" id="chemistry" name="chemistry" placeholder="Enter marks">
+      </div>
+      <div class="subject-group">
+        <label for="physics">Physics</label>
+        <input type="text" id="physics" name="physics" placeholder="Enter marks">
+      </div>
+      <button type="button" onclick="insertMarks()">Insert</button>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

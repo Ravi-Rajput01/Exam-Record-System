@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Student Marks</title>
+<link rel="stylesheet" href="insert.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Search Student Marks</h1>
+    <form id="searchForm">
+      <div class="form-group">
+        <label for="rollNo">Enter Roll Number:</label>
+        <input type="text" id="rollNo" name="rollNo" placeholder="Enter roll number">
+      </div>
+      <button type="button" onclick="searchMarks()">Search</button>
+    </form>
+    <div id="searchResults"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
